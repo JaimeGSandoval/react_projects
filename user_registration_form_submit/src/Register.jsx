@@ -97,7 +97,7 @@ const Register = () => {
         JSON.stringify({ user, pwd }),
         {
           headers: { 'Content-Type': 'application/json' },
-          // withCredentials: true, this is only commented out because the express pai that it's posting to is not set up with Access-Control-Allow-Credentials: true. It's set up in the refresh-token-rotation project, but not here. If it was set up in this projects, it would be commented out. refresh-token-rotation project uses mongo, so it won't work in wsl.
+          withCredentials: true,
         }
       );
       console.log(response?.data);
