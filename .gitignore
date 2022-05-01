@@ -1,1 +1,3 @@
 .vscode
+/user_registration_form_submit/node_modules
+/user_login_authentication/node_modules
