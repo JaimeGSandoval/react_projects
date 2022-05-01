@@ -1,3 +1,4 @@
 .vscode
 /user_registration_form_submit/node_modules
 /user_login_authentication/node_modules
+/protected_routes_role_based_auth/node_modules
