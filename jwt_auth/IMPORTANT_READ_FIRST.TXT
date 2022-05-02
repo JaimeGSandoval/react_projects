@@ -1,0 +1,3 @@
+This project will not work with the access_refresh_authentication project because it makes use of mongoDB which is needed for the /users endpoint.
+
+This project is meant to work with the refresh_token_rotation project instead, which has mongoDB code, but doesn't have mongoDB included because mongoDB doesn't work with wsl.
