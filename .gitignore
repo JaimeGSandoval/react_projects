@@ -1,5 +1,8 @@
 .vscode
-/user_registration_form_submit/node_modules
-/user_login_authentication/node_modules
-/protected_routes_role_based_auth/node_modules
-/jwt_auth/node_modules
+/user_registration_form_submit_1/node_modules
+/user_login_authentication_2/node_modules
+/protected_routes_role_based_auth_3/node_modules
+/jwt_auth_4/node_modules
+/jwt_auth_user_persist_login_5/node_modules
+/jwt_auth_4/IMPORTANT_READ_FIRST.txt
+*txt
