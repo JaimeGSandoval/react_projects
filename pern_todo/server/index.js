@@ -32,7 +32,7 @@ app.get('/todos', async (req, res) => {
   try {
     const allTodos = await pool.query('SELECT * FROM todo');
     console.log(allTodos);
-    res.status(200).json(allTodos.rows);
+    res.status(200).json(allTodos.rows); // rows is an array
   } catch (err) {
     console.error(err.message);
   }
