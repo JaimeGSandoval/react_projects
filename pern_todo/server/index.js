@@ -1,3 +1,4 @@
+require('dotenv/config');
 const express = require('express');
 const app = express();
 const cors = require('cors');
@@ -83,4 +84,5 @@ app.delete('/todos/:id', async (req, res) => {
   }
 });
 
-app.listen(5000, () => console.log('Listening on port 5000'));
+const port = process.env.PORT;
+app.listen(port, () => console.log(`Listening on port ${port}`));
